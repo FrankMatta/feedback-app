@@ -11,8 +11,8 @@ function App() {
   return (
     <FeedbackProvider>
       <Router>
-        <Header text={"hi brotha"} />
-        <div className="App">
+        <Header text={"Feedback App"} />
+        <div className="container">
           <Routes>
             <Route
               exact
