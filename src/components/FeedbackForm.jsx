@@ -21,7 +21,7 @@ function FeedbackForm() {
   }, [feedbackEdit])
 
   function handleTextChange(event) {
-    const userFeedback = event.target.value.trim();
+    const userFeedback = event.target.value;
     if (!userFeedback || userFeedback.length <= 10) {
       setButtonDisabled(true);
       setMessage("Feedback must be at least 10 characters");
